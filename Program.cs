@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿class main
+{
+    public static void Main(string[] args)
+    {
+        Penjumlahan<long> penjumlahan = new Penjumlahan<long>();
+        Console.WriteLine(penjumlahan.JumlahTigaAngka(13, 02, 22));
+    }
+}
